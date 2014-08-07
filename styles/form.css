@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+
+.signup-form input,textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: inset 0 1px 0 #ededed;
+	-moz-box-shadow: inset 0 1px 0 #ededed;
+	box-shadow: inset 0 1px 0 #ededed;
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	display: block;
+	width: 100%;
+	padding: 10px 10px;
+	margin: 2px 2px 10px 2px;
+	font-size: 14px;
+	font-family: inherit;
+	border: 1px solid #dbdbdb;
+	border-top-color: #c5c5c5;
+	color: #444
+}
+
+.signup-form input:hover,textarea:hover {
+	-webkit-box-shadow: inset 0 1px 1px #d9d9d9;
+	-moz-box-shadow: inset 0 1px 1px #d9d9d9;
+	box-shadow: inset 0 1px 1px #d9d9d9;
+	border-color: #b9b9b9;
+
+	border-top-color: #adadad
+}
+
+.signup-form input:focus,textarea:focus {
+	-webkit-box-shadow: 0 0 4px #3395f1, inset 0 1px 0 #ededed;
+	-moz-box-shadow: 0 0 4px #3395f1, inset 0 1px 0 #ededed;
+	box-shadow: 0 0 4px #3395f1, inset 0 1px 0 #ededed;
+	outline: none;
+	border-color: #389be7
+}
+
+/*
+.error input,.error textarea {
+	margin-bottom: 8px;
+	border: 1px solid #c70000
+}
+
+.error input:focus,.error textarea:focus {
+	border-color: #389be7
+}*/
+
+.signup-form .input input, .signup-form .input textarea {
+	position: relative;
+	background: none;
+	z-index: 10
+}
+
+.signup-form .input label {
+	height:25px; line-height:25px;
+	color: #999;
+	display: block;
+	z-index: 1
+}
+.signup-form .input label span,.signup-form .input label font{float:left;}
+.signup-form .input label font{line-height:30px;padding-left:10px;}
+
+.signup-form label.error {
+	margin: 0 0 10px 0;
+	color: #c70000;
+	
+	font-size: 13px;
+	display: none	
+	
+}
+
+.signup-form input.error {
+	border: 1px solid #C70000;	
+	
+}
+
+.input .focus {
+	color: #ccc
+}
+
+.input .hastext {
+	display: none
+}
+
+.signup-form input#country_code {
+	/* display: inline; */
+	width: 20%;
+}
+.signup-form input#phone_num {
+	
+	
+}
+
+select {
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: 600;
+	padding: 10px 15px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	background: url(../imgs/dropdown-arrows.png) no-repeat 98% center
+		white;
+	-webkit-appearance: button
+}
+
+select:focus {
+	-webkit-box-shadow: 0 0 4px #3395f1, inset 0 1px 0 #ededed;
+	-moz-box-shadow: 0 0 4px #3395f1, inset 0 1px 0 #ededed;
+	box-shadow: 0 0 4px #3395f1, inset 0 1px 0 #ededed;
+	outline: none;
+	border-color: #389be7
+}
+
+.tooltip {
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	background: #fff;
+	padding: 14px 18px;
+	width: 230px;
+	font-size: 13px;
+	color: #888;
+	position: absolute;
+	right: -280px;
+	top: -20px;
+	z-index: -1;
+	visability: hidden
+}
+
+.tooltip-open .tooltip {
+	visability: visible;
+	z-index: 10;
+	-webkit-animation: fadeInDown .15s ease-in 0 1 normal;
+	-khtml-animation: fadeInDown .15s ease-in 0 1 normal;
+	-moz-animation: fadeInDown .15s ease-in 0 1 normal;
+	-ms-animation: fadeInDown .15s ease-in 0 1 normal;
+	-o-animation: fadeInDown .15s ease-in 0 1 normal;
+	animation: fadeInDown .15s ease-in 0 1 normal
+}
+
+
+
+/*
+.error-message, .error {
+	margin: 0 0 10px 0;
+	color: #c70000;
+	font-weight: 600;
+	font-size: 13px;
+	display: none
+}
+
+.error .error-message {
+	display: block
+} */
+
+.supportform .button {
+	width: 250px;
+	margin-top: 15px
+}
+
+.supportform .select label {
+	display: none
+}
+
+.supportform .select select {
+	width: 100%;
+	margin: 0 0 10px 2px
+}
+
+h1{
+color: #222222;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+}

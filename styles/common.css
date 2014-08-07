@@ -1,0 +1,62 @@
+*{margin:0;padding:0}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{font-weight:400;vertical-align:middle}a img{border:none}input{border:0;}
+#close_x{display:block;height:23px;line-height:1000px;overflow:hidden;position:absolute;right:5px;top:5px;width:24px;}.sprited{background:url("../imgs/download_sprite.png") no-repeat scroll 0 0 transparent;display:block;line-height:1000px;overflow:hidden;}#see_id{background-position:-202px -133px;height:23px;width:228px;}#cancel{background-position:-198px -36px;}#log_in{background-position:-291px -36px;}#cancel:hover{background-position:-198px -67px;}#cancel:active{background-position:-198px -98px;}#log_in:hover{background-position:-291px -67px;}#log_in:active{background-position:-291px -98px;}a.form_button{float:left;height:31px;margin-right:15px;width:93px;}.tright{text-align:right !important;}.tcenter{text-align:center !important;}
+.cl:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.cl{zoom:1;}
+.fwin .rfm, .nfl .f_c .rfm { width: 500px; }
+#ajaxwaitid{position:fixed;bottom:0;right:0;}
+.fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td { padding: 6px 2px; }
+/* 弹出层 以下 class 都可以分开写，单独定义，以便个性化 */
+/* 四条边、四个角的公用样式 */
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r { overflow: hidden; background:#000; opacity: 0.2; filter: alpha(opacity=20); }
+/* 四个角 */
+.t_l, .t_r, .b_l, .b_r { width: 8px; height: 8px; }
+/* 上下两条边 */
+.t_c, .b_c { height: 8px; }
+/* 左右两条边 */
+.m_l, .m_r { width: 8px; }
+.t_l { -moz-border-radius: 8px 0 0 0; -webkit-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0; }
+.t_r { -moz-border-radius: 0 8px 0 0; -webkit-border-radius: 0 8px 0 0; border-radius: 0 8px 0 0; }
+.b_l { -moz-border-radius: 0 0 0 8px; -webkit-border-radius: 0 0 0 8px; border-radius: 0 0 0 8px; }
+.b_r { -moz-border-radius: 0 0 8px 0; -webkit-border-radius: 0 0 8px 0; border-radius: 0 0 8px 0; }
+.m_c {background:#FFF;padding:10px;border-radius:6px;}
+/* 弹出层内容区 by Pony */
+.m_c .tb { margin: 0 0 10px; padding: 0 10px; }
+.m_c .c { padding: 10px; }
+.m_c .o { padding: 8px 10px; height: 26px; text-align: right; border-top: 1px solid #CCC; background: #FFF; }
+.altw{min-width:200px;}
+.flb span{ float:right}
+
+.flbc {background: url("../imgs/common/cls.gif") no-repeat scroll 0 0 transparent;cursor: pointer;float: right;height: 20px;overflow: hidden;text-indent: -9999px;width: 20px;}
+.flbc:hover{background-position:0 -20px;}
+
+/*popuptext也就是tips*/
+.popuptext{font-size:12px;padding:8px 10px;color:#fff;text-shadow:0 0 2px #000;background-color:#3C3C3C;border:1px solid rgba(255,255,255,0.25);box-shadow:0 0 3px #555;-webkit-box-shadow:0 0 3px #555;-moz-box-shadow:0 0 3px #555;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+
+button.common{background:url("../imgs/btn_1px.png") repeat-x 0 0; width:40%; height:40px;border-radius:5px; border:1px solid #666; color:#FFF;font-weight:bold;cursor: pointer;}
+button.back{background-position: 0 0;}
+button.ok{background-position: 0 -63px;}
+button.pn {vertical-align: middle;overflow: hidden;margin-right: 3px;border-radius:3px;padding: 0 3px;height: 23px;border: 1px solid #999;background: #E5E5E5 url(../imgs/common/pn.png) repeat-x 0 0;cursor: pointer;-moz-box-shadow: 0 1px 0 #E5E5E5;-webkit-box-shadow: 0 1px 0 #E5E5E5;box-shadow: 0 1px 0 #E5E5E5;}
+button.pn em{padding: 0 10px;line-height: 21px;}
+button.pn:active{background-position:0 -23px;}
+
+.p_pop{ padding: 4px; border: 1px solid; min-width: 60px;background:#FFF; border-color: #ccc; box-shadow: 1px 2px 2px rgba(0,0,0,0.3); }
+.p_pof .p_pop { padding: 0; border: none; box-shadow: none; }
+.p_pof { width: 500px; }
+.p_opt { padding: 10px; }
+.p_pop li { display: inline; }
+.p_pop a { display: block; padding: 3px 5px; border-bottom: 1px solid #ddd; white-space: nowrap; }
+.alert_info,.alert_right,.alert_error{background:url("../imgs/common/info.gif") no-repeat 8px 8px; font-size: 14px;height: auto !important;line-height: 160%;min-height: 40px;padding: 6px 0 6px 58px;}
+.alert_right{background-image:url("../imgs/common/right.gif");}
+.alert_error{background-image:url("../imgs/common/error.gif");}
+.totop{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #000;
+	background: #000url("../imgs/toup.png") no-repeat center center;
+	opacity: 0.6;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	display:none;
+}
+

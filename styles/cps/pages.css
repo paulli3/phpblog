@@ -1,0 +1,129 @@
+@charset "gb2312";
+.userArea {background:#e5e5e5 url(img/user_bg.png) repeat-x; border-bottom:1px solid #e1e1e1;}
+.userArea .content {width:960px; margin:0 auto; }
+
+/*左侧菜单*/
+.userArea .sidebar {width:188px; margin:22px 0; border:1px solid #d6d6d6; background-color:#fff; float:left;}
+.userArea .sidebar h2 {height:30px; padding:15px 0 0 15px; border-bottom:1px solid #d6d6d6; color:#c8663f; background:url(img/arrows.png) no-repeat 170px 25px;}
+.userArea .sidebar h3 {font-family:arial,"宋体",Verdana,tahoma,sans-serif;}
+.userArea .sidebar li {margin:1px; height:30px; line-height:30px; padding-left:32px; border-bottom:1px solid #d6d6d6; background:url(img/user_sidebar_bg.png) repeat-x;}
+.userArea .sidebar li.on {background:url(img/user_sidebar_bg_on.png) no-repeat;}
+.userArea .sidebar li.on a:link, .userArea .sidebar li.on a:visited {color:#fff;}
+.userArea .sidebar a {display:block;}
+.userArea .sidebar h4 {padding-left:8px; font-size:14px; background:url(img/square.png) no-repeat 0 14px;}
+.userArea .sidebar ul.s2 li {margin:0; padding-left:32px; background-image:none; border-bottom:none; background-color:#f1f2f2;}
+.userArea .sidebar ul.s2 li.on {background:url(img/user_sidebar_bg_on.png) no-repeat;}
+
+/*主要内容*/
+.userMain {width:760px; _height:520px; min-height:520px; margin-left:10px; _margin:0; overflow:hidden; _overflow:visible; background:url(img/home_main_bg.png) repeat-y; float:left;}
+.userMain .title {height:30px; padding-top:30px; margin-bottom:10px; border-bottom:1px solid #d7d7d7;}
+.userMain h2 {font-size:20px; float:left;}
+.userMain h3 {font-size:14px; font-weight:bold; font-family:arial,"宋体",Verdana,tahoma,sans-serif;} 
+.userMain em {font-size:12px; text-align:right; font-family:arial,"宋体",Verdana,tahoma,sans-serif; float:right;}
+
+/*用户信息*/
+.userInfo {width:660px; padding:5px 0; border:1px solid #fff; outline:1px solid #d2d2d2; color:#8f8f8f; background-color:#e9e9e9; margin:0 auto;}
+.userInfo p {padding-top:15px; font-weight:bold;}
+.userInfo .view {padding-left:30px;}
+.avatar {width:100px; height:100px; margin:6px 20px 6px 6px; border:1px solid #d5d5d5; float:left;}
+
+/*系统消息*/
+.userMain .news {width:660px; line-height:30px; margin:0 auto;}
+.userMain .news h2 {height:35px;}
+.userMain .news li {height:30px; border-bottom:1px dotted #cccccc;}
+.userMain .news .pop {width:29px; height:29px; line-height:29px; padding:0 10px 5px 8px; color:#fff; text-align:center; background:url(img/header_sysinfo_bg.png) no-repeat;}
+.userMain .news .num {}
+
+.userMain .news2 {width:660px; line-height:2em; margin:0 auto;}
+.userMain .news2 h3 {padding-bottom:15px; font-size:20px; text-align:center;}
+.userMain .news2 h4 {text-align:center;}
+.userMain .unread h4 {font-size:14px; font-weight:bold; text-align:left;}
+.userMain .unread ul {margin:5px 0;padding:15px 0; border-top:1px dotted #cccccc; border-bottom:1px dotted #cccccc;}
+.userMain .unread li {line-height:1.8em;}
+
+/*官方推荐*/
+.userMain .recommend {width:660px; line-height:30px; margin:0 auto;}
+.userMain .recommend li {width:135px; text-align:center; float:left; padding-left:15px; display:inline-block;}
+.userMain .recommend img {border:1px solid #eaeaea;}
+
+/*网站列表*/
+.userMain .siteList {width:660px; line-height:2em; margin:0 auto;}
+.userMain .siteList ul {width:310px; margin:0 20px 10px 0; float:left;}
+.userMain .siteList li {padding:5px 0 0 15px; border-bottom:1px dotted #cccccc;}
+
+.userMain .siteList2 {width:660px; line-height:2em; margin:0 auto;}
+.userMain .siteList2 ul {margin-bottom:20px;}
+.userMain .siteList2 li {padding:5px 15px 0 15px; border-bottom:1px dotted #cccccc;}
+.userMain .addSite {margin-top:35px; padding:30px; font-size:14px; border:1px solid #c6c6c6; background-color:#e6e6e6;}
+.userMain .addSite td {padding:5px 0;}
+/*
+.userMain .addSite select {width:268px; height:30px; line-height:30px;}
+.userMain .addSite .input3 {width:200px; height:30px; padding:3px; color:#000; border:1px solid #878787; background-color:#fff;}
+*/
+.userMain .addSite li {border-bottom:none;}
+
+/*广告列表*/
+.userMain .list {padding:0 48px 10px 48px; line-height:30px;}
+.userMain .list h2 {margin-top:0;}
+.userMain .list h3 {font-weight:bold; font-family:arial,"宋体",Verdana,tahoma,sans-serif;}
+.userMain .list ul {}
+.userMain .list li {width:190px; padding-left:25px; text-align:left; float:left;}
+.userMain .list img {margin-bottom:15px; border:1px solid #eaeaea;}
+
+/*广告详情*/
+.details {padding:0 48px 10px 48px;}
+.details h3 {height:25px; margin:30px 0 15px; text-indent:18px; border-bottom:1px dotted #d7d7d7;}
+.details .type {width:500px; margin-left:30px; line-height:2em; float:left;}
+.details .type h4 {font-size:14px; font-weight:bold;}
+.details .type img {border:1px solid #eaeaea; margin-right:20px; float:left;}
+.details .size li {width:90px; padding-top:12px; float:left;}
+.details .size p {margin-left:18px;}
+.details .size ul {margin-left:16px;}
+.details .preview img {margin-bottom:10px; border:1px solid #eaeaea;}
+.details .preview p {margin-left:18px;}
+.details .code textarea {width:635px; border:1px solid #d2d2d2; background-color:#f0f5f7;}
+.details .code p {margin:0 0 10px 16px;}
+.details .code em {padding-right:18px; color:#333333;}
+.details .item ul {margin-left:16px;}
+.details .item li {line-height:1.8em;}
+
+.details .smart {border-bottom:1px dotted #d7d7d7;}
+.details .smart h3 {margin-top:15px;}
+.details .smart h4 {font-size:24px; font-family:Microsoft Yahei,"微软雅黑","黑体";}
+.details .smart ul {width:670px; margin:0 auto;}
+.details .smart li {width:150px; height:87px; margin:0 5px; position:relative; float:left;}
+.details .smart .checked {width:24px; height:24px; background:url(img/ico_checked.png) no-repeat; position:absolute; top:-4px; left:132px; z-index:999;}
+.details .smart a {width:150px; height:87px; padding-top:10px; text-align:center; text-decoration:none; outline:1px solid #dddddd; _border:2px solid #dddddd; background-color:#fff; display:block; float:left;}
+.details .smart a.on, .details .smart a:hover {outline:2px solid #eeceb1; _border:2px solid #eeceb1; background-color:#fffde9;}
+
+/*佣金查询*/
+.income {width:660px; margin:0 auto;}
+.income select {width:225px; font-size:14px;}
+.income .select2 {width:100px;}
+.income table {width:660px; border:1px solid #cccccc;}
+.income table td, .income table th {height:27px; text-align:center; border:1px solid #cccccc;}
+.income table th {font-weight:normal; background-color:#e5e5e5;}
+
+/*佣金明细*/
+.commission td {line-height:2.5em;}
+.commission .line {padding-top:0; border-bottom:1px solid #cccccc;}
+
+/*收款人信息*/
+.payee {width:660px; margin:0 auto;}
+.payee th {padding-top:10px; text-align:right; vertical-align:top; font-weight:normal;}
+.payee td {font-size:12px; padding:5px 0;}
+.payee p {line-height:2em;}
+.payee select, .payee .select2 {width:268px; color:#666;}
+.payee .select2 {width:130px;}
+
+/*商务合作*/
+.cooperation {padding:0 48px 10px 48px; line-height:1.8em;}
+.cooperation li {padding-left:15px;}
+.cooperation h2 {margin-top:0; color:#dc6f03;}
+.cooperation h3 {font-weight:bold; font-family:arial,"宋体",Verdana,tahoma,sans-serif;}
+.cooperation h3.s1 {padding-left:15px;}
+.cooperation p {text-indent:23px; font-size:14px;}
+.cooperation .text {padding-left:15px;}
+.cooperation .text img {border:1px solid #eaeaea;}
+.cooperation .text li {margin:0 50px 20px 0; _margin-bottom:10px; float:left;}
+.cooperation .text li.last {margin-right:0;}

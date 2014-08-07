@@ -1,0 +1,125 @@
+// 查找满足指定条件的结果中的第一行
+$post=Post::model()->find($condition,$params);
+// 查找具有指定主键值的那一行
+$post=Post::model()->findByPk($postID,$condition,$params);
+// 查找具有指定属性值的行
+$post=Post::model()->findByAttributes($attributes,$condition,$params);
+// 通过指定的 SQL 语句查找结果中的第一行
+$post=Post::model()->findBySql($sql,$params);
+
+
+
+condition: 即 WHERE 条件。默认为空。此选项中的列名应该是已经消除歧义的。
+
+$this->findByAttributes(array('recurring_payment_id'=>$id));
+
+// 查找满足指定条件的所有行
+$posts=Post::model()->findAll($condition,$params);
+// 查找带有指定主键的所有行
+$posts=Post::model()->findAllByPk($postIDs,$condition,$params);
+// 查找带有指定属性值的所有行
+$posts=Post::model()->findAllByAttributes($attributes,$condition,$params);
+// 通过指定的SQL语句查找所有行
+$posts=Post::model()->findAllBySql($sql,$params);
+如果没有任何东西符合查询条件，findAll 将返回一个空数组。这跟 find 不同，find 会在没有找到什么东西时返回 null。
+
+除了上面讲述的 find 和 findAll 方法，为了方便，（Yii）还提供了如下方法：
+
+
+
+
+
+
+// 获取满足指定条件的行数
+$n=Post::model()->count($condition,$params);
+// 通过指定的 SQL 获取结果行数
+$n=Post::model()->countBySql($sql,$params);
+// 检查是否至少有一行复合指定的条件
+$exists=Post::model()->exists($condition,$params);
+
+
+
+UPDATE 的方法
+$post=Post::model()->findByPk(10);
+$post->title='new post title';
+$post->save(); // 将更改保存到数据库
+
+
+
+// 更新符合指定条件的行
+Post::model()->updateAll($attributes,$condition,$params);
+// 更新符合指定条件和主键的行
+Post::model()->updateByPk($pk,$attributes,$condition,$params);
+// 更新满足指定条件的行的计数列
+Post::model()->updateCounters($counters,$condition,$params);
+在上面的代码中， $attributes 是一个含有以 列名作索引的列值的数组； $counters 是一个由列名索引的可增加的值的数组；$condition 和 $params 在前面的段落中已有描述。
+
+
+// 假设 $_POST['Post'] 是一个以列名索引列值为值的数组
+$post->attributes=array('fieldname'=>'fieldvalue');
+$post->save();
+
+
+
+默认的命名范围
+模型类可以有一个默认命名范围，它将应用于所有 (包括相关的那些) 关于此模型的查询。例如，一个支持多种语言的网站可能只想显示当前用户所指定的语言的内容。 因为可能会有很多关于此网站内容的查询， 我们可以定义一个默认的命名范围以解决此问题。 为实现此目的，我们覆盖 CActiveRecord::defaultScope 方法如下：
+
+class Content extends CActiveRecord
+{
+    public function defaultScope()
+    {
+        return array(
+            'condition'=>"language='".Yii::app()->language."'",
+        );
+    }
+}
+现在，如果下面的方法被调用，将会自动使用上面定义的查询规则：
+
+$contents=Content::model()->findAll();
+注意，默认的命名范围只会应用于 SELECT 查询。INSERT, UPDATE 和 DELETE 查询将被忽略。
+
+
+
+if($post->save())
+{
+    // 数据有效且成功插入/更新
+}
+else
+{
+    // 数据无效，调用  getErrors() 提取错误信息
+}
+
+
+
+事物
+$model=Post::model();
+$transaction=$model->dbConnection->beginTransaction();
+try
+{
+    // 查找和保存是可能由另一个请求干预的两个步骤
+    // 这样我们使用一个事务以确保其一致性和完整性
+    $post=$model->findByPk(10);
+    $post->title='new post title';
+    $post->save();
+    $transaction->commit();
+}
+catch(Exception $e)
+{
+    $transaction->rollBack();
+}
+
+
+
+/*事件驱动钩子方式*/
+CActiveRecord 提供了几个占位符方法，它们可以在子类中被覆盖以自定义其工作流。
+
+beforeValidate 和
+beforeSave 和 afterSave: 这两个将在保存 AR 实例之前和之后被调用。
+
+beforeDelete 和 afterDelete: 这两个将在一个 AR 实例被删除之前和之后被调用。
+
+afterConstruct: 这个将在每个使用 new 操作符创建 AR 实例后被调用。
+
+beforeFind: 这个将在一个 AR 查找器被用于执行查询（例如 find(), findAll()）之前被调用。 1.0.9 版本开始可用。
+
+afterFind: 这个将在每个 AR 实例作为一个查询结果创建时被调用。

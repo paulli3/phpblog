@@ -1,0 +1,928 @@
+2014/08/05 16:06:31 [error] [php] Missing argument 2 for BlogModel::_getAllstyleLogic(), called in D:\code\php\yii\phpblog\protected\models\BlogModel.php on line 80 and defined (D:\code\php\yii\phpblog\protected\models\BlogModel.php:72)
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(36): getAllStyle()
+#1 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionParse()
+#2 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#4 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#5 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#6 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\models\BlogModel.php (72)
+in D:\code\php\yii\phpblog\protected\models\BlogModel.php (80)
+in D:\code\php\yii\phpblog\protected\models\BlogModel.php (104)
+2014/08/05 17:07:55 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:24:39 [error] [php] Illegal string offset 'id' (D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php:12)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CBaseController.php(95): BlogController->renderInternal()
+#1 D:\code\php\yii\framework\web\CController.php(868): BlogController->renderFile()
+#2 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(26): BlogController->renderPartial()
+#3 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionList()
+#4 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#6 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#7 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#8 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/list
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (12)
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (20)
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (26)
+2014/08/05 17:24:42 [error] [php] Illegal string offset 'id' (D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php:12)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CBaseController.php(95): BlogController->renderInternal()
+#1 D:\code\php\yii\framework\web\CController.php(868): BlogController->renderFile()
+#2 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(26): BlogController->renderPartial()
+#3 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionList()
+#4 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#6 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#7 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#8 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/list
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (12)
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (20)
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (26)
+2014/08/05 17:27:02 [error] [php] Illegal string offset 'name' (D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php:12)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CBaseController.php(95): BlogController->renderInternal()
+#1 D:\code\php\yii\framework\web\CController.php(868): BlogController->renderFile()
+#2 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(26): BlogController->renderPartial()
+#3 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionList()
+#4 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#6 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#7 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#8 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/list
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (12)
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (21)
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (26)
+2014/08/05 17:27:14 [error] [php] Illegal string offset 'name' (D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php:12)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CBaseController.php(95): BlogController->renderInternal()
+#1 D:\code\php\yii\framework\web\CController.php(868): BlogController->renderFile()
+#2 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(26): BlogController->renderPartial()
+#3 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionList()
+#4 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#6 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#7 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#8 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/list
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (12)
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (21)
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (26)
+2014/08/05 17:27:17 [error] [php] Illegal string offset 'name' (D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php:12)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CBaseController.php(95): BlogController->renderInternal()
+#1 D:\code\php\yii\framework\web\CController.php(868): BlogController->renderFile()
+#2 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(26): BlogController->renderPartial()
+#3 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionList()
+#4 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#6 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#7 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#8 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/list
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (12)
+in D:\code\php\yii\phpblog\protected\views\blog\lefthtml.php (21)
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (26)
+2014/08/05 17:38:12 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:41:43 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:41:50 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:41:51 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:41:51 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:42:25 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:42:56 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:42:57 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 17:42:57 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:07:15 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:10:42 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:11:45 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:18:51 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:20:07 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:22:50 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:23:00 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:23:00 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:23:01 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:23:19 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:24:35 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/05 18:24:39 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/06 10:00:58 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/06 10:05:19 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/06 10:05:40 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/06 10:07:16 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:37) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:38)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (38)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/06 10:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "view/b69a9ea9d13a1e230657f9"。' in D:\code\php\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/b69a9ea9d1...')
+#1 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:58:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:58:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:58:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:59:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/b69a9...')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:59:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:59:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 10:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "list"。' in D:\code\php\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('list')
+#1 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/list
+---
+2014/08/06 10:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "list"。' in D:\code\php\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('list')
+#1 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/list
+---
+2014/08/06 10:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "list"。' in D:\code\php\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('list')
+#1 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/list
+---
+2014/08/06 11:00:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/b69a9...')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 11:00:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/b69a9...')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/list
+---
+2014/08/06 11:01:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/b69a9...')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view/b69a9ea9d13a1e230657f9
+---
+2014/08/06 11:01:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view
+---
+2014/08/06 11:02:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view
+---
+2014/08/06 11:02:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view
+---
+2014/08/06 11:02:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view
+---
+2014/08/06 11:02:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view
+---
+2014/08/06 11:02:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view1')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view1')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view1
+---
+2014/08/06 11:03:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view1')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view1')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view1
+---
+2014/08/06 11:08:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\code\php\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/xxxx')
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/blog/view/xxxx
+---
+2014/08/06 11:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "view/xxxx"。' in D:\code\php\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/xxxx')
+#1 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/view/xxxx
+---
+2014/08/06 11:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "list"。' in D:\code\php\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('list')
+#1 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/list
+---
+2014/08/06 11:10:40 [error] [php] Missing argument 1 for CHttpRequest::getParam(), called in D:\code\php\yii\phpblog\protected\controllers\BlogController.php on line 50 and defined (D:\code\php\yii\framework\web\CHttpRequest.php:157)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (50)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/06 11:10:44 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getParams".' in D:\code\php\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(50): CComponent->__call('getParams', Array)
+#1 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(50): CHttpRequest->getParams()
+#2 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#3 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#7 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/b69a9...')
+#8 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/view/b69a9ea9d13a1e230657f9
+HTTP_REFERER=http://www.phpblog.com/index.php/list/xxx
+---
+2014/08/06 18:03:59 [error] [exception.CException] exception 'CException' with message 'Property "BlogController.scripts" is not defined.' in D:\code\php\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\views\blog\view.php(4): CComponent->__set('scripts', Array)
+#1 D:\code\php\yii\framework\web\CBaseController.php(126): require('D:\\code\\php\\yii...')
+#2 D:\code\php\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\code\\php\\yii...', Array, true)
+#3 D:\code\php\yii\framework\web\CController.php(868): CBaseController->renderFile('D:\\code\\php\\yii...', Array, true)
+#4 D:\code\php\yii\framework\web\CController.php(781): CController->renderPartial('view', Array, true)
+#5 D:\code\php\yii\phpblog\protected\components\Controller.php(52): CController->render('view', Array, true)
+#6 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(56): Controller->render('view', Array)
+#7 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#8 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#12 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#13 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/4116c6f103352076bea1a0
+---
+2014/08/06 18:59:45 [error] [php] Cannot modify header information - headers already sent by (output started at D:\code\php\yii\phpblog\protected\controllers\BlogController.php:42) (D:\code\php\yii\phpblog\protected\controllers\BlogController.php:43)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/index.php/parse
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (43)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/07 09:39:47 [error] [php] Invalid argument supplied for foreach() (D:\code\php\yii\phpblog\protected\models\BlogModel.php:122)
+Stack trace:
+#0 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\code\php\yii\framework\web\CController.php(286): BlogController->runAction()
+#2 D:\code\php\yii\framework\web\CController.php(265): BlogController->runActionWithFilters()
+#3 D:\code\php\yii\framework\web\CWebApplication.php(282): BlogController->run()
+#4 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\code\php\yii\phpblog\index.php(18): CWebApplication->run()
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+in D:\code\php\yii\phpblog\protected\models\BlogModel.php (122)
+in D:\code\php\yii\phpblog\protected\controllers\BlogController.php (53)
+in D:\code\php\yii\phpblog\index.php (18)
+2014/08/07 09:40:35 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'wrong number of arguments for 'lrange' command' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR wrong numbe...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListRange))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListRange))
+#4 [internal function]: Predis_Client->__call('lrange', Array)
+#5 [internal function]: Predis_Client->lrange('1', 'xxx')
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('lrange', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->lrange('1', 'xxx')
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:43:51 [error] [exception.Predis_ClientException] exception 'Predis_ClientException' with message ''RPUSH' is not a registered Redis command' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:1551
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(206): Predis_RedisServerProfile->createCommand('RPUSH', Array)
+#1 [internal function]: Predis_Client->__call('RPUSH', Array)
+#2 [internal function]: Predis_Client->RPUSH('1', 'xxx')
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#4 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('RPUSH', Array)
+#5 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->RPUSH('1', 'xxx')
+#6 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#7 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#11 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#12 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:44:01 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'Operation against a key holding the wrong kind of value' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR Operation a...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListPushTail))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListPushTail))
+#4 [internal function]: Predis_Client->__call('rpush', Array)
+#5 [internal function]: Predis_Client->rpush('1', 'xxx')
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('rpush', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->rpush('1', 'xxx')
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:44:13 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'Operation against a key holding the wrong kind of value' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR Operation a...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListPushTail))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListPushTail))
+#4 [internal function]: Predis_Client->__call('rpush', Array)
+#5 [internal function]: Predis_Client->rpush('1', 'xxx')
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('rpush', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->rpush('1', 'xxx')
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:44:14 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'Operation against a key holding the wrong kind of value' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR Operation a...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListPushTail))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListPushTail))
+#4 [internal function]: Predis_Client->__call('rpush', Array)
+#5 [internal function]: Predis_Client->rpush('1', 'xxx')
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('rpush', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->rpush('1', 'xxx')
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:44:14 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'Operation against a key holding the wrong kind of value' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR Operation a...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListPushTail))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListPushTail))
+#4 [internal function]: Predis_Client->__call('rpush', Array)
+#5 [internal function]: Predis_Client->rpush('1', 'xxx')
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('rpush', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->rpush('1', 'xxx')
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:44:14 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'Operation against a key holding the wrong kind of value' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR Operation a...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListPushTail))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListPushTail))
+#4 [internal function]: Predis_Client->__call('rpush', Array)
+#5 [internal function]: Predis_Client->rpush('1', 'xxx')
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->__call('rpush', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(49): CRedisCache->rpush('1', 'xxx')
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---
+2014/08/07 09:45:35 [error] [exception.Predis_ServerException] exception 'Predis_ServerException' with message 'Operation against a key holding the wrong kind of value' in D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php:573
+Stack trace:
+#0 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(711): Predis_ResponseErrorHandler->handle(Object(Predis_Connection), 'ERR Operation a...')
+#1 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1312): Predis_ResponseReader->read(Object(Predis_Connection))
+#2 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(1469): Predis_Connection->readResponse(Object(Predis_Commands_ListRange))
+#3 D:\code\php\yii\phpblog\protected\extensions\redis\Predis.php(207): Predis_ConnectionCluster->executeCommand(Object(Predis_Commands_ListRange))
+#4 [internal function]: Predis_Client->__call('lrange', Array)
+#5 [internal function]: Predis_Client->lrange('1', 0, -1)
+#6 D:\code\php\yii\phpblog\protected\extensions\redis\CRedisCache.php(143): call_user_func_array(Array, Array)
+#7 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(50): CRedisCache->__call('lrange', Array)
+#8 D:\code\php\yii\phpblog\protected\controllers\BlogController.php(50): CRedisCache->lrange('1', 0, -1)
+#9 D:\code\php\yii\framework\web\actions\CInlineAction.php(49): BlogController->actionView()
+#10 D:\code\php\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\code\php\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\code\php\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\code\php\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\code\php\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/view/id/41...')
+#15 D:\code\php\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\code\php\yii\phpblog\index.php(18): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/view/4116c6f103352076bea1a0
+HTTP_REFERER=http://www.phpblog.com/index.php/view/b69a9ea9d13a1e230657f9
+---

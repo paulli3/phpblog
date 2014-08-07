@@ -1,0 +1,63 @@
+
+Yii::app()->cache->set($id, $value);
+Yii::app()->cache->set($id, $value, 30);
+
+$value=Yii::app()->cache->get($id);
+if($value===false)
+{
+    // 因为在缓存中没找到 $value ，重新生成它 ，
+    // 并将它存入缓存以备以后使用：
+    // Yii::app()->cache->set($id,$value);
+}
+
+$cache=Yii::app()->cache;
+$cache['var1']=$value1;  // 相当于: $cache->set('var1',$value1);
+$value2=$cache['var2'];  // 相当于: $value2=$cache->get('var2');
+
+
+
+
+
+//页面缓存
+public function filters()
+{
+    return array(
+        array(
+            'COutputCache+index,post', //只缓存index和post的2个方法
+            'duration'=>100,
+            'varyByParam'=>array('id'),
+        ),
+    );
+}
+
+
+
+
+
+片段缓存
+
+...其他HTML内容...
+<?php if($this->beginCache($id, array('dependency'=>array(
+        'class'=>'system.caching.dependencies.CDbCacheDependency',
+        'sql'=>'SELECT MAX(lastModified) FROM Post')))) { ?>
+...被缓存的内容...
+<?php $this->endCache(); } ?>
+...其他HTML内容...
+
+
+
+...其他HTML内容...
+<?php if($this->beginCache($id, array('requestTypes'=>array('GET')))) { ?>
+...被缓存的内容...
+<?php $this->endCache(); } ?>
+...其他HTML内容...
+
+
+动态缓存
+...别的HTML内容...
+<?php if($this->beginCache($id)) { ?>
+...被缓存的片段内容...
+    <?php $this->renderDynamic($callback); ?>
+...被缓存的片段内容...
+<?php $this->endCache(); } ?>
+...别的HTML内容...

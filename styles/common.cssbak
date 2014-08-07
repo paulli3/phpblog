@@ -1,0 +1,215 @@
+@CHARSET "ISO-8859-1";
+
+#login_modal {
+	background: none repeat scroll 0 0 #EEF2F7;
+	border: 1px solid #536376;
+	display: none;
+	padding: 14px 22px;
+	position: relative;
+	width: 400px;
+}
+#login_modal #login_form {
+    margin-top: 13px;
+}
+#login_modal label {
+    color: #536376;
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+#login_modal label input {
+    background-position: -201px 0;
+    display: block;
+    font-size: 1.2em;
+    height: 31px;
+    line-height: 31px;
+    padding: 2px 8px;
+    width: 393px;
+}
+
+#close_x {
+    /* background-position: -387px -102px; */
+    display: block;
+    height: 23px;
+    line-height: 1000px;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 24px;
+}
+
+.sprited {
+    background: url("../imgs/download_sprite.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    line-height: 1000px;
+    overflow: hidden;
+}
+#see_id {
+    background-position: -202px -133px;
+    height: 23px;
+    width: 228px;
+}
+#cancel {
+    background-position: -198px -36px;
+}
+#log_in {
+    background-position: -291px -36px;
+}
+#cancel:hover {
+    background-position: -198px -67px;
+}
+#cancel:active {
+    background-position: -198px -98px;
+}
+#log_in:hover {
+    background-position: -291px -67px;
+}
+#log_in:active {
+    background-position: -291px -98px;
+}
+a.form_button {
+    float: left;
+    height: 31px;
+    margin-right: 15px;
+    width: 93px;
+}
+.tright{
+	text-align:right !important;
+}
+.tcenter{
+	text-align:center !important;
+}
+.cl:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.cl{zoom:1;}
+
+
+
+
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+input.ui-button::-moz-focus-inner,
+button.ui-button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+.ui-dialog {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: .2em;
+	outline: 0;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: .4em 1em;
+	position: relative;
+}
+.ui-dialog .ui-dialog-title {
+	float: left;
+	margin: .1em 0;
+	white-space: nowrap;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 21px;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 20px;
+}
+.ui-dialog .ui-dialog-content {
+	position: relative;
+	border: 0;
+	padding: .5em 1em;
+	background: none;
+	overflow: auto;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-width: 1px 0 0 0;
+	background-image: none;
+	margin-top: .5em;
+	padding: .3em 1em .5em .4em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: .5em .4em .5em 0;
+	cursor: pointer;
+}
+.ui-dialog .ui-resizable-se {
+	width: 12px;
+	height: 12px;
+	right: -5px;
+	bottom: -5px;
+	background-position: 16px 16px;
+}
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+
+
+/* Overlays */
+.ui-widget-overlay {
+	background: #666666;
+	opacity: .5;
+	filter: Alpha(Opacity=50);
+}
+.ui-widget-shadow {
+	margin: -5px 0 0 -5px;
+	padding: 5px;
+	background: #000000 ;
+	opacity: .2;
+	filter: Alpha(Opacity=20);
+	border-radius: 5px;
+}
+
+.dialog .ui-dialog-titlebar-close {left:-10px;top:-5px;}
+
+.dialog .ui-dialog .ui-dialog-titlebar{padding:0;}
+.dialog .ui-widget-header{background:0;border:0;text-indent:-10000px;padding:0;}
+.dialog .ui-widget-header .ui-dialog-title{display:none;}
+.dialog {border:3px solid #666;box-shadow: 0px 1px 10px #666;}
+.dialog {background:#FFF;padding:0;}
+.dialog .ui-dialog-titlebar-close{box-shadow: 0px 1px 10px #666;transition:width 1s linear,height 1s linear,border-radius 1s linear;z-index:91;background:#fff;border:1px solid #99;}
+.dialog .ui-dialog-titlebar-close:hover{width:30px;height:30px;border-radius:30px;background:#fff;border:1px solid #99;}
+.dialog .ui-resizable-nw{display:none !important;}
+
+.fwin .rfm, .nfl .f_c .rfm { width: 500px; }
+.fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td { padding: 6px 2px; }
+/* 弹出层 以下 class 都可以分开写，单独定义，以便个性化 */
+/* 四条边、四个角的公用样式 */
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r { overflow: hidden; background:#000; opacity: 0.2; filter: alpha(opacity=20); }
+/* 四个角 */
+.t_l, .t_r, .b_l, .b_r { width: 8px; height: 8px; }
+/* 上下两条边 */
+.t_c, .b_c { height: 8px; }
+/* 左右两条边 */
+.m_l, .m_r { width: 8px; }
+
+
+.t_l { -moz-border-radius: 8px 0 0 0; -webkit-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0; }
+.t_r { -moz-border-radius: 0 8px 0 0; -webkit-border-radius: 0 8px 0 0; border-radius: 0 8px 0 0; }
+.b_l { -moz-border-radius: 0 0 0 8px; -webkit-border-radius: 0 0 0 8px; border-radius: 0 0 0 8px; }
+.b_r { -moz-border-radius: 0 0 8px 0; -webkit-border-radius: 0 0 8px 0; border-radius: 0 0 8px 0; }
+.m_c {background:#FFF;padding:10px;}
+
+/* 弹出层内容区 by Pony */
+	.m_c .tb { margin: 0 0 10px; padding: 0 10px; }
+.m_c .c { padding: 10px; }
+.m_c .o { padding: 8px 10px; height: 26px; text-align: right; border-top: 1px solid #CCC; background: #FFF; }
+.altw{min-width:200px;}
+.flb span{ float:right}
+
+/*popuptext也就是tips*/
+.popuptext{padding:10px;background:#FFF;border:1px solid #999;    box-shadow: 2px 3px 3px #666666;border-radius:3px;min-width:300px;text-align:center;}
+.popuptext table{width:100%;}
+
+button.common{background:url("../imgs/btn_1px.png") repeat-x 0 0; width:40%; height:40px;border-radius:5px; border:1px solid #666; color:#FFF;font-weight:bold;cursor: pointer;}
+button.back{background-position: 0 0;}
+button.ok{background-position: 0 -63px;}
