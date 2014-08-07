@@ -13,10 +13,23 @@ class BlogController extends Controller
 	
 	public function actionEdit()
 	{
+		$model = new FromBlog();
+		$d['model'] = & $model;
 		
-		$a = BlogModel::getBlogData();
-		var_dump($a);
-		//$this->render('blog_edit');
+		if ($data = app()->request->getParam('data')){
+			$model->attributes=$data;
+			
+			if ($model->validate()){
+					if (BlogModel::BLOG_ADD($model->attributes))showAutoRediect('save successed',url('/list'));
+			}else{
+					showDialog(json_encode($model->getErrors()),'',array());
+			}
+			
+		}
+		
+		//$a = BlogModel::getBlogData();
+		//var_dump($a);
+		$this->render('blog_edit',$d);
 	}
 	/**
 	 * 列表显示
@@ -31,6 +44,15 @@ class BlogController extends Controller
 		$this->render('list',$d);
 		
 	}
+//	public  function actionList1() //old
+//	{
+//		$d['datalist'] = BlogModel::getBlogData();
+//	
+//		$d['leftHtml'] = $this->renderPartial('lefthtml',array('leftData'=>BlogModel::getAllStyle()),true);
+//		
+//		$this->render('list',$d);
+//		
+//	}
 	/**
 	 * 解析，更新文档到列表
 	 */

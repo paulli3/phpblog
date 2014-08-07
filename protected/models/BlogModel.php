@@ -1,4 +1,5 @@
 <?php
+yii::import("application.key.*");
 class BlogModel extends CFormModel
 {
 	
@@ -22,6 +23,24 @@ class BlogModel extends CFormModel
 		
 	}
 	
+	/**
+	 * 添加博客,修改博客
+	 * @param unknown_type $data
+	 */
+	static function BLOG_ADD($data)
+	{
+		$id = app()->cache->hincrby(Keys::BLOG_INFO,Keys::BLOG_ID_INCREASE,1);
+		if ($id){
+			return app()->cache->hset(Keys::BLOG_INFO,$id,json_encode($data));
+		}
+	}
+	/**	
+	 * 通过ID，获取博客
+	 */
+	static function BLOG_GET_BY_ID($id)
+	{
+		return json_decode(app()->cache->hget(Keys::BLOG_INFO,$id),true);
+	}
 	/**
 	 * 递归取文件扩展
 	 * @param unknown_type $file

@@ -981,7 +981,8 @@ _OPT.extend('request',(function($,OPT){return {
 		if (action.indexOf('?')==-1){action = action + "?";} else {action = action + "&";}
 		action = action + "inajax=2";
 		curform.action = action.replace(/inajax\=2/g, '')+'inajax=2';
-		curform.submit();
+		
+		try{curform.submit();}catch(e){console.log(e)}
 		if(submitbtn) {
 			submitbtn.disabled = true;
 		}
